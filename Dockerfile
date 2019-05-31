@@ -1,6 +1,6 @@
 FROM jenkins/jenkins:lts
 
-MAINTAINER Michael Huber
+LABEL maintainer="Michael Huber"
 
 # Installing plugins
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
